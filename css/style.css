@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.card-outline{
+  border: 1px solid #dfdfdf;
+  
+}
+.fa-times{
+  color: #f78501;
+}
+.fa-times:hover{
+  color: #da6900;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background:rgb(255, 255, 255) ;
+  font-size: 16px;
+  transition: 0.2s;
+  list-style-type: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+ul li:hover {
+  background: rgb(240, 240, 240);
+}
+
+.header {
+  background-color: #f78501;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+img {
+  background-color: white;
+}
+
